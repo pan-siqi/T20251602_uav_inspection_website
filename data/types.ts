@@ -1,0 +1,2 @@
+export type Sample={id:string;title:string;site:string;sourceFile:string;sourceVideo:string|null;timestamp:string|null;original:string;thumbnail:string;processed:string;mask:string;comparison:string;categories:string[];method:string;provenance:string};
+export type Video={id:string;title:string;scene:string;duration:string|null;description:string;src:string;poster:string|null};

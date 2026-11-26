@@ -1,0 +1,23 @@
+[
+  {
+    "id": "yolo",
+    "title": "Bounding Box Annotation",
+    "description": "YOLO-style bounding boxes highlight suspected defect locations.",
+    "alt": "YOLO principle diagram: an input image passes through feature extraction and a detection head to produce bounding boxes.",
+    "image": "/media/principles/yolo.png"
+  },
+  {
+    "id": "sam",
+    "title": "Segmentation-style Annotation",
+    "description": "SAM / segmentation-style masks show suspected defect regions.",
+    "alt": "SAM principle diagram: an image and prompt pass through an image encoder and mask decoder to produce a segmentation mask.",
+    "image": "/media/principles/sam.png"
+  },
+  {
+    "id": "inspection",
+    "title": "Inspection Visualization",
+    "description": "An industrial inspection platform-style view organizes the image and defect information.",
+    "alt": "Inspection visualization principle diagram: UAV data proceeds through defect annotation and data organization into an inspection database.",
+    "image": "/media/principles/inspection.png"
+  }
+]

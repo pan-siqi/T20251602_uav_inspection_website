@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Siyi ZHOU",
+    "thrust": "ROAS",
+    "role": "State estimation \u00b7 Group leader",
+    "responsibilities": "Physics-constrained world models, sensor fusion and uncertainty-aware state prediction.",
+    "photo": null
+  },
+  {
+    "name": "Qian ZHANG",
+    "thrust": "MICS",
+    "role": "Communication",
+    "responsibilities": "High-speed clock and data recovery circuits; communication bandwidth, latency and interference constraints.",
+    "photo": null
+  },
+  {
+    "name": "Siqi PAN",
+    "thrust": "AI",
+    "role": "Path planning",
+    "responsibilities": "Agentic UAV decision-making and visually and physically feasible local inspection trajectories.",
+    "photo": null
+  },
+  {
+    "name": "Zhixian YANG",
+    "thrust": "EOAS",
+    "role": "Wind modeling",
+    "responsibilities": "Multi-scale urban wind modeling, CFD and turbulence priors for safe flight.",
+    "photo": null
+  },
+  {
+    "name": "Wenhan LI",
+    "thrust": "ROAS",
+    "role": "Safety control",
+    "responsibilities": "Disturbance-aware trajectory tracking, safe obstacle avoidance and low-level control.",
+    "photo": null
+  },
+  {
+    "name": "Yanjing HUANG",
+    "thrust": "ROAS",
+    "role": "Task allocation",
+    "responsibilities": "Adaptive swarm coordination and resilient task allocation under communication interference.",
+    "photo": null
+  }
+]

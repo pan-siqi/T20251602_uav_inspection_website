@@ -1,0 +1,240 @@
+[
+  {
+    "id": "S001",
+    "title": "Elevated walkway · view 1",
+    "site": "SCUT",
+    "sourceFile": "华南理工/091_1.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S001/original.webp",
+    "thumbnail": "/media/S001/thumb.webp",
+    "processed": "/media/S001/det.webp",
+    "mask": "/media/S001/mask.webp",
+    "comparison": "/media/S001/dbview.webp",
+    "categories": [
+      "Crack",
+      "Surface damage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S002",
+    "title": "Elevated walkway · view 2",
+    "site": "SCUT",
+    "sourceFile": "华南理工/091_2.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S002/original.webp",
+    "thumbnail": "/media/S002/thumb.webp",
+    "processed": "/media/S002/det.webp",
+    "mask": "/media/S002/mask.webp",
+    "comparison": "/media/S002/dbview.webp",
+    "categories": [
+      "Crack",
+      "Surface damage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S003",
+    "title": "Walkway support",
+    "site": "SCUT",
+    "sourceFile": "华南理工/092_1.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S003/original.webp",
+    "thumbnail": "/media/S003/thumb.webp",
+    "processed": "/media/S003/det.webp",
+    "mask": "/media/S003/mask.webp",
+    "comparison": "/media/S003/dbview.webp",
+    "categories": [
+      "Leakage",
+      "Surface damage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S004",
+    "title": "Walkway span",
+    "site": "SCUT",
+    "sourceFile": "华南理工/092_2.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S004/original.webp",
+    "thumbnail": "/media/S004/thumb.webp",
+    "processed": "/media/S004/det.webp",
+    "mask": "/media/S004/mask.webp",
+    "comparison": "/media/S004/dbview.webp",
+    "categories": [
+      "Leakage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S005",
+    "title": "Soffit surface",
+    "site": "SCUT",
+    "sourceFile": "华南理工/093_1.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S005/original.webp",
+    "thumbnail": "/media/S005/thumb.webp",
+    "processed": "/media/S005/det.webp",
+    "mask": "/media/S005/mask.webp",
+    "comparison": "/media/S005/dbview.webp",
+    "categories": [
+      "Surface damage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S006",
+    "title": "Deck edge",
+    "site": "SCUT",
+    "sourceFile": "华南理工/094_1.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S006/original.webp",
+    "thumbnail": "/media/S006/thumb.webp",
+    "processed": "/media/S006/det.webp",
+    "mask": "/media/S006/mask.webp",
+    "comparison": "/media/S006/dbview.webp",
+    "categories": [
+      "Leakage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S007",
+    "title": "Arch underside",
+    "site": "SCUT",
+    "sourceFile": "华南理工/095.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S007/original.webp",
+    "thumbnail": "/media/S007/thumb.webp",
+    "processed": "/media/S007/det.webp",
+    "mask": "/media/S007/mask.webp",
+    "comparison": "/media/S007/dbview.webp",
+    "categories": [
+      "Surface damage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S008",
+    "title": "Waterside span",
+    "site": "SCUT",
+    "sourceFile": "华南理工/096_1.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S008/original.webp",
+    "thumbnail": "/media/S008/thumb.webp",
+    "processed": "/media/S008/det.webp",
+    "mask": "/media/S008/mask.webp",
+    "comparison": "/media/S008/dbview.webp",
+    "categories": [
+      "Efflorescence"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S009",
+    "title": "Construction surface",
+    "site": "HKUST(GZ)",
+    "sourceFile": "港科广/工地.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S009/original.webp",
+    "thumbnail": "/media/S009/thumb.webp",
+    "processed": "/media/S009/det.webp",
+    "mask": "/media/S009/mask.webp",
+    "comparison": "/media/S009/dbview.webp",
+    "categories": [
+      "Unverified defect"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S010",
+    "title": "Arch bridge · bearings",
+    "site": "HKUST(GZ)",
+    "sourceFile": "港科广/体育馆侧拱桥_1.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S010/original.webp",
+    "thumbnail": "/media/S010/thumb.webp",
+    "processed": "/media/S010/det.webp",
+    "mask": "/media/S010/mask.webp",
+    "comparison": "/media/S010/dbview.webp",
+    "categories": [
+      "Spalling",
+      "Leakage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S011",
+    "title": "Arch bridge · deck",
+    "site": "HKUST(GZ)",
+    "sourceFile": "港科广/体育馆侧拱桥_2.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S011/original.webp",
+    "thumbnail": "/media/S011/thumb.webp",
+    "processed": "/media/S011/det.webp",
+    "mask": "/media/S011/mask.webp",
+    "comparison": "/media/S011/dbview.webp",
+    "categories": [
+      "Leakage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S012",
+    "title": "Arch bridge · underside",
+    "site": "HKUST(GZ)",
+    "sourceFile": "港科广/体育馆侧拱桥底部.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S012/original.webp",
+    "thumbnail": "/media/S012/thumb.webp",
+    "processed": "/media/S012/det.webp",
+    "mask": "/media/S012/mask.webp",
+    "comparison": "/media/S012/dbview.webp",
+    "categories": [
+      "Spalling"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  },
+  {
+    "id": "S013",
+    "title": "Connecting walkway",
+    "site": "HKUST(GZ)",
+    "sourceFile": "港科广/E工位连廊_桥梁连接处.png",
+    "sourceVideo": null,
+    "timestamp": null,
+    "original": "/media/S013/original.webp",
+    "thumbnail": "/media/S013/thumb.webp",
+    "processed": "/media/S013/det.webp",
+    "mask": "/media/S013/mask.webp",
+    "comparison": "/media/S013/dbview.webp",
+    "categories": [
+      "Surface damage"
+    ],
+    "method": "Simulated visualization",
+    "provenance": "Illustrative result; simulated scores; pending verification. Not validated model inference or ground-truth annotation."
+  }
+]

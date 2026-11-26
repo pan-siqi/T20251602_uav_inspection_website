@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import './globals.css'; import Nav from '../components/Nav'; import Link from 'next/link';
+export const metadata: Metadata={title:'UAV Research | T20261602',description:'Collaborative UAV research for safer urban infrastructure inspection. Explore the team and field image collection.'};
+export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body><a className="skip" href="#main">Skip to content</a><Nav/><main id="main">{children}</main><footer><div><strong>UAV / Research</strong><p>Autonomous urban infrastructure inspection</p><small>HKUST(GZ) · Red Bird MPhil Program</small></div><div><Link href="/">Home</Link><Link href="/team">Team Members</Link><Link href="/dataset">Dataset</Link></div><p className="footnote">T20261602<br/>Research in progress</p></footer></body></html>}
