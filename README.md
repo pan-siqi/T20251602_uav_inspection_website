@@ -40,16 +40,27 @@ Import `pan-siqi/T20251602_uav_inspection_website`, branch `main`.
 - `data/team.json`: member names, academic thrusts, responsibilities and optional photo URLs.
 - `data/samples.json`: 13 original images and 39 supplied visualization assets, suspected labels and source metadata. Original images are lossless WebP copies. Supplied annotations contain simulated scores and are not verified model inference or ground truth.
 - `data/annotation-principles.json`: three user-supplied principle diagrams and corresponding descriptions.
-- `data/videos.json`: currently empty. Add video entries matching `data/types.ts` to enable on-demand playback. No actual raw videos were available in the supplied collection.
+- `data/videos.json`: currently empty. Add video entries matching `data/types.ts` to enable on-demand playback. The 12 original recordings are offered as individual downloads through the campus collections in `data/archives.json`.
 
 Gallery labels: Original Frame, Bounding Box Annotation, Segmentation-style Annotation and Inspection Visualization. The three processed views are YOLO-style, SAM/segmentation-style and inspection-platform-style visualizations; style names do not establish model provenance.
 
 ## Media
 
-Use `/media/...` URLs for files under `public/media`, or external HTTPS URLs. Keep large videos in object storage/CDN with byte-range support and correct content types rather than in Git. Windows local disk paths cannot be served by Vercel. Member photos and extraction metadata can be added when available.
+Use `/media/...` URLs for files under `public/media`, or external HTTPS URLs. Keep large videos in GitHub Releases or object storage with byte-range support and correct content types rather than in Git. Windows local disk paths cannot be served by Vercel. Member photos and extraction metadata can be added when available.
 
 ## Design and verification
 
 Warm ivory, muted gold and espresso palette; responsive desktop/tablet/mobile layouts; shared heading scale and natural text wrapping; reduced-motion support. The gallery supports filtering, four view modes, image zoom and keyboard-accessible dialogs. Principle diagrams have separate zoom viewers and are not counted as dataset samples.
 
 Reference design language: https://sunflower-labs.com/#how-it-works
+
+## Campus video downloads
+
+`data/archives.json` defines the SCUT and HKUST(GZ) collections, supplied campus covers, and six MP4 downloads per school. Each video record includes an English title, original source filename, download filename, exact byte size, and public HTTPS `downloadUrl`. Counts and total sizes are calculated from these records. Add a record to extend the list without changing components.
+
+The original MP4 files are distributed through the public GitHub Release:
+https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/tag/uav-footage-v1
+
+Each link downloads one complete MP4 file. Files have descriptive ASCII download filenames; their original bytes are unchanged. The videos are not bundled with the Next.js app, committed to Git, or proxied through Vercel. Visitors do not need a GitHub account to download public release assets. File sizes are displayed in decimal MB/GB.
+
+The previous development-only ZIP streaming route has been removed. No desktop paths, credentials or environment variables are needed for production downloads. Future updates should upload the new asset to a public release and update `data/archives.json`. Keep published assets available to preserve existing links.

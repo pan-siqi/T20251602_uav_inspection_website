@@ -6,3 +6,9 @@ node_modules/
 .vercel/
 *.log
 start-local.ps1
+
+# Large flight media are distributed through GitHub Releases, not Git.
+*.zip
+
+*.mp4
+*.MP4

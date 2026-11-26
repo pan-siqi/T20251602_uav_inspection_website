@@ -23,3 +23,16 @@ header{background:#fffefbeF}.hero{background:radial-gradient(ellipse at 50% 85%,
 .principle-viewport{background:#fff}
 @media(min-width:901px){.view-explainer article>p{min-height:4.8em}.principle-preview{margin-top:auto}}
 @media(max-width:900px){.view-explainer{grid-template-columns:1fr;gap:30px}.principle-preview{margin-top:18px}}
+
+.archive-downloads{display:grid;gap:58px;margin-top:48px}.archive-download{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.2fr);gap:55px;align-items:center}.archive-cover{width:100%;height:auto;aspect-ratio:1.48;object-fit:contain;background:#f6f2e9;border:1px solid #e8dfcf;border-radius:8px}.archive-description h3{font-family:Georgia,'Times New Roman',serif;font-size:clamp(23px,2.1vw,32px);line-height:1.25;letter-spacing:-.025em;margin-bottom:22px}.archive-description>p{font-size:16px}.archive-description .archive-details{font-size:14px;color:#88795e;margin-top:22px}.archive-link{display:inline-flex;gap:12px;align-items:center;margin-top:22px;font-size:18px;font-weight:500;color:#a87425;border:0;background:none;padding:0}.archive-link>span{display:flex;align-items:center;justify-content:center;background:#b28a40;color:white;width:32px;height:32px;border-radius:50%}.archive-link:hover{text-decoration:underline;text-underline-offset:5px}.archive-description .archive-pending{font-size:13px;margin-top:10px}.archive-downloads+.video-grid{margin-top:50px}@media(max-width:700px){.archive-download{grid-template-columns:1fr;gap:24px}.archive-downloads{gap:45px}.archive-description h3{margin-bottom:15px}.archive-cover{max-width:550px}}
+
+/* Campus collections: direct downloads of complete, original MP4 files. */
+.archive-download{align-items:start}.archive-cover{margin-top:4px}
+.campus-video-list{list-style:none;margin:22px 0 0;padding:0;border-top:1px solid #e8dfcf}
+.campus-video-list li{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 0;border-bottom:1px solid #e8dfcf}
+.campus-video-info{min-width:0}.campus-video-info h4{margin:0;font-size:15px;font-weight:500;line-height:1.5;overflow-wrap:anywhere}
+.campus-video-info>span{display:block;font-size:12px;color:#88795e;margin-top:4px}
+.video-download-link{display:inline-flex;align-items:center;gap:7px;flex-shrink:0;color:#956b24;font-size:14px;min-height:44px}
+.video-download-link:hover{text-decoration:underline;text-underline-offset:4px}.video-download-pending{font-size:12px;color:#88795e}
+@media(max-width:1000px){.archive-download{gap:30px;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr)}}
+@media(max-width:700px){.archive-download{grid-template-columns:1fr;gap:24px}.campus-video-list li{gap:12px}}

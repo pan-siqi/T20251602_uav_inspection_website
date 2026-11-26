@@ -1,0 +1,116 @@
+[
+  {
+    "id": "scut",
+    "school": "South China University of Technology",
+    "shortName": "SCUT",
+    "cover": "/media/campuses/scut.png",
+    "description": "Original UAV bridge inspection recordings from SCUT. Download individual videos in their original MP4 format.",
+    "videos": [
+      {
+        "id": "scut-0091",
+        "title": "Inspection flight 0091",
+        "sourceFilename": "0091.MP4",
+        "filename": "scut-0091.mp4",
+        "sizeBytes": 914322383,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/scut-0091.mp4"
+      },
+      {
+        "id": "scut-0092",
+        "title": "Inspection flight 0092",
+        "sourceFilename": "0092.MP4",
+        "filename": "scut-0092.mp4",
+        "sizeBytes": 870904801,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/scut-0092.mp4"
+      },
+      {
+        "id": "scut-0093",
+        "title": "Inspection flight 0093",
+        "sourceFilename": "0093.MP4",
+        "filename": "scut-0093.mp4",
+        "sizeBytes": 2035200865,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/scut-0093.mp4"
+      },
+      {
+        "id": "scut-0094",
+        "title": "Inspection flight 0094",
+        "sourceFilename": "0094.MP4",
+        "filename": "scut-0094.mp4",
+        "sizeBytes": 1527833069,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/scut-0094.mp4"
+      },
+      {
+        "id": "scut-0095",
+        "title": "Inspection flight 0095",
+        "sourceFilename": "0095.MP4",
+        "filename": "scut-0095.mp4",
+        "sizeBytes": 1183906464,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/scut-0095.mp4"
+      },
+      {
+        "id": "scut-0096",
+        "title": "Inspection flight 0096",
+        "sourceFilename": "0096.MP4",
+        "filename": "scut-0096.mp4",
+        "sizeBytes": 396559036,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/scut-0096.mp4"
+      }
+    ]
+  },
+  {
+    "id": "hkust-gz",
+    "school": "The Hong Kong University of Science and Technology (Guangzhou)",
+    "shortName": "HKUST(GZ)",
+    "cover": "/media/campuses/hkust-gz.png",
+    "description": "Original UAV bridge inspection recordings from HKUST(GZ). Download individual videos in their original MP4 format.",
+    "videos": [
+      {
+        "id": "hkust-gz-e-walkway",
+        "title": "E-area walkway",
+        "sourceFilename": "E工位连廊.MP4",
+        "filename": "hkust-gz-e-walkway.mp4",
+        "sizeBytes": 906178704,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/hkust-gz-e-walkway.mp4"
+      },
+      {
+        "id": "hkust-gz-e-walkway-underside",
+        "title": "E-area walkway — underside",
+        "sourceFilename": "E工位连廊_底部.MP4",
+        "filename": "hkust-gz-e-walkway-underside.mp4",
+        "sizeBytes": 1268291155,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/hkust-gz-e-walkway-underside.mp4"
+      },
+      {
+        "id": "hkust-gz-w-walkway",
+        "title": "West-side walkway",
+        "sourceFilename": "W侧连廊.MP4",
+        "filename": "hkust-gz-w-walkway.mp4",
+        "sizeBytes": 338869885,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/hkust-gz-w-walkway.mp4"
+      },
+      {
+        "id": "hkust-gz-construction-site",
+        "title": "Construction site",
+        "sourceFilename": "工地.MP4",
+        "filename": "hkust-gz-construction-site.mp4",
+        "sizeBytes": 666951428,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/hkust-gz-construction-site.mp4"
+      },
+      {
+        "id": "hkust-gz-sports-hall-arch-bridge",
+        "title": "Arch bridge by the sports hall",
+        "sourceFilename": "体育馆侧拱桥.MP4",
+        "filename": "hkust-gz-sports-hall-arch-bridge.mp4",
+        "sizeBytes": 466577662,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/hkust-gz-sports-hall-arch-bridge.mp4"
+      },
+      {
+        "id": "hkust-gz-sports-hall-arch-bridge-underside",
+        "title": "Arch bridge — underside",
+        "sourceFilename": "体育馆侧拱桥_底部.MP4",
+        "filename": "hkust-gz-sports-hall-arch-bridge-underside.mp4",
+        "sizeBytes": 439420556,
+        "downloadUrl": "https://github.com/pan-siqi/T20251602_uav_inspection_website/releases/download/uav-footage-v1/hkust-gz-sports-hall-arch-bridge-underside.mp4"
+      }
+    ]
+  }
+]
